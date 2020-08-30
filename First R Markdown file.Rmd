@@ -1,0 +1,40 @@
+---
+title: "First R Markdown Document"
+author: "Ajmal Hussain"
+date: "30 August 2020"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+# Lists
+
+Oh, Yes! You heard me right the first time I am going to add lists.
+
+- First Item  
+- Second Item. Please notice to leave two spaces at the end of each list item.  
+- This is the third *item* on the list. So we have *italics* and **bold** points to make, as well as [links to talk about](www.google.com).  
+
+Now I wonder how to make text that is npth italicized and bold. But I shall leave that for another day.
